@@ -12,10 +12,9 @@ AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([		#files to generate *.in for
 Makefile
 src/Makefile
-lib/Makefile
 ])
 
 # Checks for typedefs, structures, and compiler characteristics.
-AC_TYPE_UINT8_T
+dnl AC_TYPE_UINT8_T
 
 AC_OUTPUT

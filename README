@@ -1,0 +1,4 @@
+# -*- mode: org; -*-
+#+title: CHIP-8.c
+
+A simple chip-8 emulator written in C.
