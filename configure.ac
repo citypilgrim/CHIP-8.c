@@ -7,3 +7,6 @@ AC_CONFIG_FILES([
  src/Makefile
 ])
 AC_OUTPUT
+
+# Clean command
+AC_CONFIG_COMMANDS([clean])
