@@ -2,3 +2,18 @@
 #+title: CHIP-8.c
 
 A simple chip-8 emulator written in C.
+
+* Dependencies
+- standard C libraries
+- Autotools
+  + ~automake~
+  + ~autoconf~
+
+* Building
+1. Build system initialisation
+   #+begin_src sh
+     autoreconf --install            # gen build system files
+     ./configure                     # gen Makefiles
+   #+end_src
+2. Compile the executable with the humble ~make~ command 
+3. execute the program with
