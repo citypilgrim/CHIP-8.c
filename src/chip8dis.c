@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <stdio.h>
 
 void DisassembleChip8Op(uint8_t *codebuffer, int pc) {
   /* pc acts as bookmark to the last time disassembler was called */

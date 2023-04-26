@@ -16,4 +16,4 @@ A simple chip-8 emulator written in C.
      ./configure                     # gen Makefiles
    #+end_src
 2. Compile the executable with the humble ~make~ command 
-3. execute the program with
+3. execute the program with ~./src/chip8 roms/*.ch8~
